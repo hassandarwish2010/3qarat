@@ -35,7 +35,6 @@ Welcome
 
 
 
-@include('layouts.ourteam')
 
 </br> 
  

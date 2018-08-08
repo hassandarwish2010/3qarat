@@ -89,6 +89,7 @@ Route::delete('/adminpanel/compounds/{id}/delete',['as'=>'compound.destroy','use
 
 Route::get('/adminpanel/buildings',['as'=>'building.index','uses'=>'BuildingController@index']);//,'middleware' => ['permission:building-list|building-create|building-edit|building-delete']]);
 
+
 Route::get('/adminpanel/buildings/create',['as'=>'building.create','uses'=>'BuildingController@create' ]);//,'middleware' => ['permission:building-create']]);
 
 Route::post('/adminpanel/buildings/create',['as'=>'building.store','uses'=>'BuildingController@store']);//,'middleware' => ['permission:building-create']
